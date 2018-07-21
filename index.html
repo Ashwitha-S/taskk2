@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>task2</title>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="html,css"> -->
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</head>
+
+<body onload="loaddata()">
+
+    <section class="headersection">
+        <div class="default">
+            <header>
+                <img class="logoimage" src="images/page-1.png" alt="error">
+                <button class="loginbutton">LOGIN</button>
+            </header>
+            <div>
+                <div class="headingsection default">
+                    <h4 class="heading">Welcome to MeritTrac</h4>
+
+                    <div class="subheading">
+                        <p>The testing & assessment company</p>
+                    </div>
+                </div>
+                <section class="contenthexagon default">
+                    <div class="content">
+                        <p>
+                            Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in derIndustrie bereits der
+                            Standard Demo -Text seit1500, als ein unbekannter Schriftsteller. Lorem Ipsum ist ein einfacher
+                            Demo-Text für diePrint- und Schriftindustrie. Lorem Ipsum ist in derIndustrie bereits der Standard
+                            Demo -Text seit1500, als ein unbekannter Schriftsteller.
+                        <br>
+                            Lorem Ipsum ist ein einfacher Demo-Text für diePrint- und Schriftindustrie. Lorem Ipsum ist in derIndustrie bereits der Standard
+                            Demo -Text seit1500, als ein unbekannter Schriftsteller.
+                        </p>
+                    </div>
+                    <div class="hex ">
+                        <div class="div1">
+                            <div id="hex1" class="hexagon-wrapper">
+                                <div id="color1" class="hexagon">
+                                    <h3 class="heading">200</h3>
+                                    <p class="hexlastline">POPULAR
+                                        <br> ITEMS
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="div2">
+                            <div id="hex2" class="hexagon-wrapper">
+                                <div id="color2" class="hexagon"></div>
+                            </div>
+                        </div>
+                        <div class="div3">
+                            <div id="hex3" class="hexagon-wrapper">
+                                <div id="color3" class="hexagon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+    <div class="centerpart">
+        <div class="centermain default">
+            <section class="mainsection">
+                <div class="search-container ">
+                    <div class="main ">
+                        <div class="maincontent1">
+                            <p>Search Results</p>
+                        </div>
+                        <div class="sortby">
+                            <div class="maincontent2">
+                                <p>Sort by:</p>
+                            </div>
+                            <div>
+                                <select class="maincontent3">
+                                    <option value="Popularity">Popularity</option>
+                                    <option value="All">All</option>
+                                </select>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-cancel-container ">
+                        <div>
+                            <div class="cancelcircle">
+                                <img src="images/group-10.png" alt="error">
+                            </div>
+                            <div>
+                                <input type="text" placeholder="Science and Engineering" class="sciencetext" />
+                            </div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="filtercircle">
+                            <img src="images/filter.png" alt="error">
+                        </div>
+
+                    </div>
+                </div>
+                <ul class="outerbox" id="struct">
+                    <!--<li class="smallbox">
+                        <div class="boxheaddiv">
+                            <p class="boxheading ">Probationary
+                                <br> Officer/ Junior Officer
+                            </p>
+                            <p class="subheadingbox ">ENGINEERING</p>
+                            <p class="lastlinebox ">Purchased by 540</p>
+                        </div>
+                        <div class="boxfooter">
+                            <p class="basicclass ">
+                                <img  src="images/level.png" alt="error">Basic</p>
+                            <p class="timeclass">
+                                <img  src="images/time.png" alt="error">45 mins</p>
+                        </div>
+                    </li>
+                    <li class="smallbox">
+                        <div class="boxheaddiv">
+                            <p class="boxheading ">Probationary
+                                <br> Officer/ Junior Officer
+                            </p>
+                            <p class="subheadingbox ">ENGINEERING</p>
+                            <p class="lastlinebox ">Purchased by 540</p>
+                        </div>
+                        <div class="boxfooter">
+                            <p class="basicclass ">
+                                <img  src="images/level.png" alt="error">Basic</p>
+                            <p class="timeclass">
+                                <img  src="images/time.png" alt="error">45 mins</p>
+                        </div>
+                    </li>
+                    <li class="smallbox">
+                        <div class="boxheaddiv">
+                            <p class="boxheading ">Probationary
+                                <br> Officer/ Junior Officer
+                            </p>
+                            <p class="subheadingbox ">ENGINEERING</p>
+                            <p class="lastlinebox ">Purchased by 540</p>
+                        </div>
+                        <div class="boxfooter">
+                            <p class="basicclass ">
+                                <img  src="images/level.png" alt="error">Basic</p>
+                            <p class="timeclass">
+                                <img  src="images/time.png" alt="error">45 mins</p>
+                        </div>
+                    </li>
+                    <li class="smallbox">
+                        <div class="boxheaddiv">
+                            <p class="boxheading ">Probationary
+                                <br> Officer/ Junior Officer
+                            </p>
+                            <p class="subheadingbox ">ENGINEERING</p>
+                            <p class="lastlinebox ">Purchased by 540</p>
+                        </div>
+                        <div class="boxfooter">
+                            <p class="basicclass ">
+                                <img  src="images/level.png" alt="error">Basic</p>
+                            <p class="timeclass">
+                                <img  src="images/time.png" alt="error">45 mins</p>
+                        </div>
+                    </li>
+                    <li class="smallbox">
+                        <div class="boxheaddiv">
+                            <p class="boxheading ">Probationary
+                                <br> Officer/ Junior Officer
+                            </p>
+                            <p class="subheadingbox ">ENGINEERING</p>
+                            <p class="lastlinebox ">Purchased by 540</p>
+                        </div>
+                        <div class="boxfooter">
+                            <p class="basicclass ">
+                                <img  src="images/level.png" alt="error">Basic</p>
+                            <p class="timeclass">
+                                <img  src="images/time.png" alt="error">45 mins</p>
+                        </div>
+                    </li>
+                    <li class="smallbox">
+                        <div class="boxheaddiv">
+                            <p class="boxheading ">Probationary
+                                <br> Officer/ Junior Officer
+                            </p>
+                            <p class="subheadingbox ">ENGINEERING</p>
+                            <p class="lastlinebox ">Purchased by 540</p>
+                        </div>
+                        <div class="boxfooter">
+                            <p class="basicclass ">
+                                <img  src="images/level.png" alt="error">Basic</p>
+                            <p class="timeclass">
+                                <img  src="images/time.png" alt="error">45 mins</p>
+                        </div>
+                    </li>
+                    <li class="smallbox">
+                        <div class="boxheaddiv">
+                            <p class="boxheading ">Probationary
+                                <br> Officer/ Junior Officer
+                            </p>
+                            <p class="subheadingbox ">ENGINEERING</p>
+                            <p class="lastlinebox ">Purchased by 540</p>
+                        </div>
+                        <div class="boxfooter">
+                            <p class="basicclass ">
+                                <img  src="images/level.png" alt="error">Basic</p>
+                            <p class="timeclass">
+                                <img  src="images/time.png" alt="error">45 mins</p>
+                        </div>
+                    </li>  -->
+
+                         
+                </ul>
+            </section>
+            </div>
+        </div>
+         <section class="abovefootersection">
+            <div class="abovefooterdiv">
+                
+                
+                <div class="footerdiv">
+                        <!-- <div class="foothex">
+                                <img class="imagehex"  src="images/hex.png">
+
+                        </div> -->
+                        <div class="chat-box">
+
+                            <div class="chat-closed foothex "> <img src="images/hex.png"> </div>
+                            <div class="chat-header hide">Live Chat</div>
+                            <div class="chat-content hide">
+                                    <!-- <div class="chatlog"></div>
+                                    <div class="chattext">
+                                        
+                                        <p class="chatmessage">hi</p>
+                                    </div> -->
+                                    <div class="chatlog">
+  
+                                            <div class="userphoto">M</div>
+                                            <div class="chattext">hi</div>
+                                           </div>
+                                            
+                                            <div class="chatlog">
+                                            
+                                            <div class="userphoto1">Y</div>
+                                            <div class="chattext">hello</div>
+                                           </div>
+                                    <div class="chatbottom">
+                                        <textarea></textarea>
+                                        <button class="chatsend">send</button>
+                                    </div>
+                            </div> 
+                        </div>
+                    <center>
+                        <p class="abovefooter">Supporting over 400 customers across government and corporate industries</p>
+                    </center>
+                </div>
+
+                <div class="imgsection default ">
+
+                    <img class="company-logo " src="images/accenture.png" alt="error">
+                    <img class="company-logo " src="images/hdfc.png" alt="error">
+                    <img class="company-logo " src="images/tata.png" alt="error">
+                    <img class="company-logo " src="images/ibm.png" alt="error">
+                    <img class="company-logo " src="images/infosys.png" alt="error">
+                    <img class="company-logo " src="images/deloitte.png" alt="error">
+
+
+
+                </div>
+            </div>
+        </section>
+        <section class="footersection">
+            <footer class="footer1">
+                <div class="footerchild">
+                    <div class="socialappimage">
+                    <img class="appimage1" src="images/fb.png" alt="error">
+                    <img class="appimage2" src="images/twitter.png" alt="error">
+                    <img class="appimage3" src="images/linkedin.png" alt="error">
+                    <img class="appimage4" src="images/google.png" alt="error">
+                </div>
+                <div class="copyrightdiv">
+                    <p>Copyright @ 2017 MeritTrac</p>
+                </div>
+                </div>
+                <div class="footerchild">
+                    <p class="headquaterclass">HEADQUARTERS</p>
+                    <address class="addclass">
+                        MeritTrac Services Pvt. Ltd.
+                        <br> #12/5, Market Square, 4th floor, Kaikondarahalli
+                        <br> Varthur Hobli, Sarjapur Main Road
+                        <br> Bangalore – 560 035
+                        <br>
+                    </address>
+                </div>
+                <div class="footerchild">
+                    <p class="headquaterclass">CONTACT US</p>
+                    <p class="mailclass">
+                        <img style="margin-right:5px" src="images/mail.png" alt="error"> info@merittrac.com</p>
+                    <p class="contactclass">
+                        <img src="images/shape.png" alt="error"> +91 80718 19100</p>
+                </div>
+            </footer>
+        </section> 
+</body>
+
+</html>
